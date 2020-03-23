@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Daily School Diary</string>
+    <string name="todo">TODO</string>
+    <string name="daily_school_diary">Daily School\n\t\t\tDiary</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Haseeb Bhatti</string>
+    <string name="nav_header_subtitle">haseebbhatti742@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_register_requests">Register Requests</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_logout">Logout</string>
+    
+    <string-array name="typeSpinnerArray">
+        <item>User Type</item>
+        <item name="admin">Admin</item>
+        <item name="teacher">Teacher</item>
+        <item name="student">Student</item>
+    </string-array>
+
+    <string name="facebook_app_id">243289673322801</string>
+    <string name="fb_login_protocol_scheme">fb243289673322801</string>
+</resources>

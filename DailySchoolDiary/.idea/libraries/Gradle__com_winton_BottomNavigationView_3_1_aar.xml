@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.winton:BottomNavigationView:3.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e165f3727e163db8ea2b5ef19415525/BottomNavigationView-3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e165f3727e163db8ea2b5ef19415525/BottomNavigationView-3.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.winton/BottomNavigationView/3.1/e497036413d7413a3c681d2398e9132c0d015b25/BottomNavigationView-3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.winton/BottomNavigationView/3.1/fe104afe446df01e6a3ff70c4b052209dba924ad/BottomNavigationView-3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,296 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.dailyschooldiary"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="16"
+9-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:6:5-40
+12-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:6:18-37
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:7:5-66
+14-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:7:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:24:5-79
+15-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:24:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:25:5-68
+16-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:25:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+19
+20    <application
+20-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:9:5-50:19
+21        android:allowBackup="true"
+21-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:10:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:11:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:12:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:13:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:14:9-35
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:15:9-40
+29        <activity
+29-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:16:9-21:20
+30            android:name="com.example.dailyschooldiary.Home"
+30-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:17:13-33
+31            android:label="@string/title_activity_home"
+31-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:18:13-56
+32            android:theme="@style/AppTheme.NoActionBar" >
+32-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:19:13-56
+33        </activity>
+34        <activity android:name="com.example.dailyschooldiary.Login" />
+34-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:22:9-43
+34-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:22:19-40
+35        <activity android:name="com.example.dailyschooldiary.Register" />
+35-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:23:9-46
+35-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:23:19-43
+36        <activity android:name="com.example.dailyschooldiary.SplashScreen" >
+36-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:24:9-30:20
+36-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:24:19-47
+37            <intent-filter>
+37-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:25:13-29:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:26:17-69
+38-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:26:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:28:17-77
+40-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:28:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <meta-data
+44-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:32:9-33:54
+45            android:name="com.facebook.sdk.ApplicationId"
+45-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:32:20-65
+46            android:value="@string/facebook_app_id" />
+46-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:33:13-52
+47
+48        <activity
+48-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:35:9-38:48
+49            android:name="com.facebook.FacebookActivity"
+49-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:35:19-63
+50            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+50-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:36:13-114
+51            android:label="@string/app_name"
+51-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:38:13-45
+52            android:theme="@style/com_facebook_activity_theme" />
+52-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7a2132273b8664f225ce417febfd7e26\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+53        <activity
+53-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:39:9-48:20
+54            android:name="com.facebook.CustomTabActivity"
+54-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:40:13-58
+55            android:exported="true" >
+55-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:41:13-36
+56            <intent-filter>
+56-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:42:13-47:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:43:17-69
+57-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:43:25-66
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:44:17-76
+59-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:44:27-73
+60                <category android:name="android.intent.category.BROWSABLE" />
+60-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:45:17-78
+60-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:45:27-75
+61
+62                <data android:scheme="@string/fb_login_protocol_scheme" />
+62-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:46:17-75
+62-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:46:23-72
+63            </intent-filter>
+64            <intent-filter>
+64-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7a2132273b8664f225ce417febfd7e26\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+65                <action android:name="android.intent.action.VIEW" />
+65-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:43:17-69
+65-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:43:25-66
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:44:17-76
+67-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:44:27-73
+68                <category android:name="android.intent.category.BROWSABLE" />
+68-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:45:17-78
+68-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:45:27-75
+69
+70                <data
+70-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:46:17-75
+71                    android:host="cct.com.example.dailyschooldiary"
+72                    android:scheme="fbconnect" />
+72-->C:\Users\Haseeb Bhatti\Desktop\Daily School Diary\App Code\DailySchoolDiary\app\src\main\AndroidManifest.xml:46:23-72
+73            </intent-filter>
+74        </activity>
+75        <activity android:name="com.facebook.CustomTabMainActivity" />
+75-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7a2132273b8664f225ce417febfd7e26\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+75-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7a2132273b8664f225ce417febfd7e26\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+76
+77        <receiver
+77-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:29:9-33:20
+78            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+78-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:30:13-85
+79            android:enabled="true"
+79-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:31:13-35
+80            android:exported="false" >
+80-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:32:13-37
+81        </receiver>
+82        <receiver
+82-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:34:9-42:20
+83            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+83-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:35:13-100
+84            android:enabled="true"
+84-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:36:13-35
+85            android:exported="true"
+85-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:37:13-36
+86            android:permission="android.permission.INSTALL_PACKAGES" >
+86-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:38:13-69
+87            <intent-filter>
+87-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:39:13-41:29
+88                <action android:name="com.android.vending.INSTALL_REFERRER" />
+88-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:40:17-79
+88-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:40:25-76
+89            </intent-filter>
+90        </receiver>
+91
+92        <service
+92-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:44:9-47:40
+93            android:name="com.google.android.gms.measurement.AppMeasurementService"
+93-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:45:13-84
+94            android:enabled="true"
+94-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:46:13-35
+95            android:exported="false" />
+95-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:47:13-37
+96        <service
+96-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:48:9-52:72
+97            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+97-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:49:13-87
+98            android:enabled="true"
+98-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:50:13-35
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:51:13-37
+100            android:permission="android.permission.BIND_JOB_SERVICE" />
+100-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\da285bf3d5ac46fbcb876ddc09104239\play-services-measurement-17.2.0\AndroidManifest.xml:52:13-69
+101        <service
+101-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\4b59d42a294b8df7832d39aa6c3c85e9\play-services-measurement-api-17.2.0\AndroidManifest.xml:27:9-33:19
+102            android:name="com.google.firebase.components.ComponentDiscoveryService"
+102-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\4b59d42a294b8df7832d39aa6c3c85e9\play-services-measurement-api-17.2.0\AndroidManifest.xml:28:13-84
+103            android:exported="false" >
+103-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\4b59d42a294b8df7832d39aa6c3c85e9\play-services-measurement-api-17.2.0\AndroidManifest.xml:29:13-37
+104            <meta-data
+104-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\4b59d42a294b8df7832d39aa6c3c85e9\play-services-measurement-api-17.2.0\AndroidManifest.xml:30:13-32:85
+105                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+105-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\4b59d42a294b8df7832d39aa6c3c85e9\play-services-measurement-api-17.2.0\AndroidManifest.xml:31:17-139
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\4b59d42a294b8df7832d39aa6c3c85e9\play-services-measurement-api-17.2.0\AndroidManifest.xml:32:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+108                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+108-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+110        </service>
+111
+112        <receiver
+112-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+113            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+113-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+114            android:exported="true"
+114-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+115            android:permission="com.google.android.c2dm.permission.SEND" >
+115-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+116            <intent-filter>
+116-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+117                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+117-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+117-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+118            </intent-filter>
+119        </receiver>
+120
+121        <provider
+121-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\8abde26a42bb7f6a8f02f592e3e1bf4a\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+122            android:name="com.google.firebase.provider.FirebaseInitProvider"
+122-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\8abde26a42bb7f6a8f02f592e3e1bf4a\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+123            android:authorities="com.example.dailyschooldiary.firebaseinitprovider"
+123-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\8abde26a42bb7f6a8f02f592e3e1bf4a\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+124            android:exported="false"
+124-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\8abde26a42bb7f6a8f02f592e3e1bf4a\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+125            android:initOrder="100" />
+125-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\8abde26a42bb7f6a8f02f592e3e1bf4a\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+126
+127        <activity
+127-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+128            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+128-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+131
+132        <meta-data
+132-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\d85775fd408d11ae02bef74ea0d35055\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+133            android:name="com.google.android.gms.version"
+133-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\d85775fd408d11ae02bef74ea0d35055\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+134            android:value="@integer/google_play_services_version" />
+134-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\d85775fd408d11ae02bef74ea0d35055\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+135        <!--
+136         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+137         with the application context. This config is merged in with the host app's manifest,
+138         but there can only be one provider with the same authority activated at any given
+139         point; so if the end user has two or more different apps that use Facebook SDK, only the
+140         first one will be able to use the provider. To work around this problem, we use the
+141         following placeholder in the authority to identify each host application as if it was
+142         a completely different provider.
+143        -->
+144        <provider
+144-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7087e0cb0a34544aca2a98bc897c760b\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+145            android:name="com.facebook.internal.FacebookInitProvider"
+145-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7087e0cb0a34544aca2a98bc897c760b\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+146            android:authorities="com.example.dailyschooldiary.FacebookInitProvider"
+146-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7087e0cb0a34544aca2a98bc897c760b\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+147            android:exported="false" />
+147-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7087e0cb0a34544aca2a98bc897c760b\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+148
+149        <receiver
+149-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7087e0cb0a34544aca2a98bc897c760b\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+150            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+150-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7087e0cb0a34544aca2a98bc897c760b\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+151            android:exported="false" >
+151-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7087e0cb0a34544aca2a98bc897c760b\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+152            <intent-filter>
+152-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7087e0cb0a34544aca2a98bc897c760b\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+153                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+153-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7087e0cb0a34544aca2a98bc897c760b\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+153-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\7087e0cb0a34544aca2a98bc897c760b\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+154            </intent-filter>
+155        </receiver>
+156
+157        <provider
+157-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+158            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+158-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+159            android:authorities="com.example.dailyschooldiary.lifecycle-process"
+159-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+160            android:exported="false"
+160-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+161            android:multiprocess="true" />
+161-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Haseeb Bhatti\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+162    </application>
+163
+164</manifest>

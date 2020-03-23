@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1042143812513",
+    "firebase_url": "https://daily-school-diary.firebaseio.com",
+    "project_id": "daily-school-diary",
+    "storage_bucket": "daily-school-diary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042143812513:android:beb56a6bbf126cbc09c9e0",
+        "android_client_info": {
+          "package_name": "com.example.dailyschooldiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042143812513-eeue0a4ri66gaij7v6vc75vsghk43hdl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dailyschooldiary",
+            "certificate_hash": "7b11cd0e31344a55dd0190033788efc244e5af63"
+          }
+        },
+        {
+          "client_id": "1042143812513-rn8s1gl69j01l8bnq511jm5kko5u1m0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCddH1_lfdUyqF7l0Ey2tgXmftJtiB08XM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042143812513-rn8s1gl69j01l8bnq511jm5kko5u1m0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
